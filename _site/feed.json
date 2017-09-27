@@ -1,0 +1,21 @@
+    {
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Justin Rummel . com",
+  "home_page_url": "http://localhost:4000/",
+  "feed_url": "http://localhost:4000/feed.json",
+  "description": "Professional Bio/Resume site for Justin Rummel.",
+  "icon": "http://localhost:4000/apple-touch-icon.png",
+  "favicon": "http://localhost:4000/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "Justin Rummel",
+    "url": "https://www.justinrummel.com/",
+    "avatar": "https://www.gravatar.com/avatar/812849b04c44245ad29c0e40cb84e3da.jpg?s=110"
+  },
+  "items": [
+    
+    
+  ]
+}
+
+
