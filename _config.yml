@@ -1,0 +1,286 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+theme                    : minimal-mistakes-jekyll
+minimal_mistakes_skin    : air # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
+
+
+# Site Settings
+locale                   : "en_US"
+title                    : "Justin Rummel . com"
+title_separator          : "-"
+name                     : "Justin Rummel"
+description              : "Professional Bio/Resume site for Justin Rummel."
+url                      : https://www.justinrummel.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : justinrummel/jr.com-mm # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : /assets/images/sierra-teaser.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : "staticman" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            : "justinrummel" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:                # https://developers.facebook.com/docs/plugins/comments
+    appid                : # 12345678901234567890
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+#  allowedFields          : ['name', 'email', 'url', 'parent', 'origin', 'message']
+#  allowedOrigins         : ["localhost", "justinrummel.com", "www.justinrummel.com"]
+  branch                 : "jr-branch"
+#  commitMessage          : "New comment."
+#  filename               : comment-{@timestamp}
+#  format                 : "yml"
+#  moderation             : false
+#  path                   : "_data/comments/{options.slug}" # "_data/comments/{options.slug}" (default)
+#  requiredFields         : ['name', 'email', 'message']
+  # with Mailgun, which you can get for free at http://mailgun.com.
+  # https://mademistakes.com/articles/improving-jekyll-static-comments/
+#  notifications:
+#    enabled: true
+    # Mailgun API key (encrypted)
+#    apiKey: "DtgHoNuRZu+r3jw2m6vDhykWgtmVWttbJYPFXMcMdkMvnC+LtwBUqURMWFOAm7nbL9Qq7hhBOw3Lb+36nYp+qXyU1HP6T0f2ySnjngqrm0YfbtLEsmUCoIJCN/4dgCZdPC8qlkaHISQx3L3sVhLnIjUl/fXEXsrOfb2AmM0+2bA="
+    # Mailgun domain (encrypted)
+#    domain: "BPvJ2L3k9ffONVpUIEUXVTPC1n+0HZ3CBcjkwfNUs+sVIDHA6/byxUiKxYYyMUPCRnUCQPGHjLhdo03VQ1r94Adme1O4zJ+QWwxdASKatvNuFJuIVeC8ZTCKQoJAQYYCKJlWRxM2IKo7srycPQ1Np+TQnEDD9d3/WaJJ/wcyQcs="
+#  transforms:
+#    email                : "md5"
+#  generatedFields:
+#    date:
+#      type               : "date"
+#      options:
+#        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path                   : https://feeds.feedburner.com/jr # blank (default) uses feed.xml
+
+
+# SEO Related
+google_site_verification : hT6wj0MiwnZDtC-APUPAkaE4cSidJtqaBCBq3Xnlnxk
+bing_site_verification   : BF2EEED10A15A64DE29F3E540F77DC37
+alexa_site_verification  :
+yandex_site_verification :
+
+
+# Social Sharing
+twitter:
+  username               : "justinrummel"
+facebook:
+  username               : "justinrummel"
+  app_id                 : "286537128062498"
+  publisher              : "justinrummel"
+og_image                 : # Open Graph/Twitter default site image
+social:
+  type                   : Person           # Person or Organization (defaults to Person)
+  name                   : "Justin Rummel"  # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://www.facebook.com/justinrummel"
+    - "https://github.com/justinrummel"
+    - "https://www.instagram.com/justin.rummel/"
+    - "https://www.linkedin.com/in/justinrummel"
+    - "https://twitter.com/justinrummel"
+    - "https://www.strava.com/athletes/justinrummel"
+
+
+# Analytics
+analytics:
+  provider                : google # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id           : UA-41781912-1
+
+
+# Site Author
+author:
+  name                    : "Justin Rummel"
+  avatar                  : "https://www.gravatar.com/avatar/812849b04c44245ad29c0e40cb84e3da.jpg?s=110"
+  bio                     : "Professional Bio/Resume site for Justin Rummel."
+#  location                :
+#  email                   :
+  url                     : "https://www.justinrummel.com/"
+  facebook                : "justinrummel"
+  github                  : "justinrummel"
+  instagram               : "justin.rummel"
+  linkedin                : "justinrummel"
+  strava                  : "justinrummel"
+  twitter                 : "justinrummel"
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - "*.gemspec"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - script
+  - staticman.yml
+  - tmp
+  - vendor
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+encoding                  : "utf-8"
+markdown_ext              : "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown                  : kramdown
+highlighter               : rouge
+lsi                       : false
+future                    : false
+show_drafts               : false
+excerpt_separator         : "\n\n"
+incremental               : false
+
+
+# Markdown Processing
+kramdown:
+  hard_wrap               : false
+  input                   : GFM
+  auto_ids                : true
+  auto_id_prefix          : 'jr_'
+  footnote_nr             : 1
+  smart_quotes            : lsquo,rsquo,ldquo,rdquo
+  toc_levels              : 1..6
+  enable_coderay          : false
+  entity_output           : as_char
+
+
+# Sass/SCSS
+sass:
+  sass_dir                : _sass
+  style                   : compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# reCAPTCHA keys
+reCaptcha:
+  siteKey: "6Lfj9ysUAAAAAOWg3kjG9nsoDgJpZBo7PhxAMh1c"
+  secret: "jlq9b/ZJ74mENEygF6jhYrTs/YUQVZoeMKl9giynbSXBmU5spAj1ETwwzaMOzsRqLukAEvAku5v5Af7O++2n2NGeSLQNOixSJfqCDrNMk3Ob6A4aRN11CQT5qFRlJxyVGmia8tZzqEyd1mrbZpd+AVsIh2sC5jhdrx+zgogCLkk="
+
+
+# Outputting
+permalink                 : /:title/
+paginate                  : 5 # amount of posts to show
+paginate_path             : /page:num/
+timezone                  : America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - liquid-md5
+  - jemoji
+  - jekyll-lunr-js-search
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <absolute_url>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <absolute_url/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <absolute_url/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings               : all
+  comments                : ["<!-- ", " -->"]
+  blanklines              : true
+  profile                 : false
+
+
+# https://mmistakes.github.io/minimal-mistakes/docs/installation/
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path                : ""
+      type                : posts
+    values:
+      layout              : single
+      author_profile      : true
+      read_time           : false
+      comments            : true
+      share               : false
+      related             : true
+      sidebar:
+        nav               : "docs"
+
+
+# Default extensions when using octopress to generate new posts/pages
+post_ext                  : md
+page_ext                  : md
+photos_ext                : md
+
+
+# Found in _templates/
+post_layout               : post
+page_layout               : page
+page_layout               : photos
+
+
+# Lunr https://github.com/slashdotdash/jekyll-lunr-js-search
+lunr_search:
+  js_dir                  : "/assets/js/lunr"
+  min_length              : 3
